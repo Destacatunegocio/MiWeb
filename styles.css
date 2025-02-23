@@ -132,7 +132,7 @@ body {
 
 /* ✅ Ajuste de imágenes en los posts (PC) */
 .publicacion img {
-    max-width: 8%; /* Cambia este valor si quieres ajustar el tamaño en PC */
+    max-width: 15%; /* Cambia este valor si quieres ajustar el tamaño en PC */
     height: auto;
     display: block;
     margin: 10px auto;
