@@ -1,4 +1,6 @@
-/* Estilos Generales */
+/* ================================ */
+/* 📌 Ajustes Generales */
+/* ================================ */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #0a0a0a;
@@ -8,15 +10,17 @@ body {
     padding: 0;
 }
 
-/* 🏆 Estilos para el Logo */
+/* ================================ */
+/* 🎨 Ajustes para el Logo */
+/* ================================ */
 .logo-container {
     text-align: center;
     margin-top: -10px;
-    margin-bottom: -190px;
+    margin-bottom: -140px;
 }
 
 .logo {
-    width: 200px;
+    width: 150px; /* Tamaño más ajustado */
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -25,47 +29,53 @@ body {
     transform: scale(1.05);
 }
 
-/* Pantalla de Bienvenida */
+/* ================================ */
+/* ✨ Pantalla de Bienvenida */
+/* ================================ */
 .bienvenida {
     background: linear-gradient(135deg, #1e1e1e, #121212);
-    padding: 120px 20px 100px;
+    padding: 80px 20px 60px; /* Reducido para móviles */
     text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
 }
 
 .bienvenida h1 {
-    font-size: 3rem;
+    font-size: 2.5rem; /* Más pequeño en móviles */
     color: #ff007f;
     animation: glow 1.5s infinite alternate;
 }
 
 .bienvenida p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #bbb;
 }
 
-/* Botón de Unirse */
+/* ================================ */
+/* 🎟️ Botón de Unirse */
+/* ================================ */
 #botonUnete {
     background: #ff007f;
     color: white;
-    font-size: 1.2rem;
-    padding: 15px 30px;
+    font-size: 1.1rem;
+    padding: 12px 25px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     text-shadow: 0 0 10px white;
-    box-shadow: 0 0 15px #ff007f, 0 0 30px #ff007f;
+    box-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
     transition: 0.3s;
 }
 
 #botonUnete:hover {
-    box-shadow: 0 0 25px #ff007f, 0 0 50px #ff007f;
+    box-shadow: 0 0 20px #ff007f, 0 0 40px #ff007f;
 }
 
-/* Barra de Navegación */
+/* ================================ */
+/* 🏠 Barra de Navegación */
+/* ================================ */
 .navbar {
     background: #111;
-    padding: 15px 0;
-    margin-top: 20px;
+    padding: 10px 0;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     box-shadow: 0 0 10px #ff007f;
@@ -76,146 +86,141 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .navbar ul li {
     margin: 0;
 }
 
-/* Botones de Navegación */
+/* ✅ Botones de Navegación */
 .nav-btn {
     background: #ff007f;
     color: white;
-    font-size: 1.2rem;
-    padding: 10px 20px;
+    font-size: 1rem; /* Reducido en móviles */
+    padding: 8px 15px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    text-shadow: 0 0 10px white;
-    box-shadow: 0 0 15px #ff007f, 0 0 30px #ff007f;
+    text-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px #ff007f;
     transition: 0.3s;
-    display: inline-block;
-    position: relative;
 }
 
 .nav-btn:hover {
-    box-shadow: 0 0 25px #ff007f, 0 0 50px #ff007f;
-}
-
-/* 🎨 Glow de cada sección */
-
-/* 🏠 Sección de Inicio (Azul) */
-#contenidoInicio {
-    border: 2px solid #0099ff;
-    box-shadow: 0 0 20px #0099ff;
-    padding: 25px;
-}
-
-#contenidoInicio h2 {
-    color: #0099ff;
-    text-shadow: 0 0 15px #0099ff;
-}
-
-/* 📰 Sección de Publicaciones (Rosa) */
-#contenidoPublicaciones {
-    border: 2px solid #ff007f;
     box-shadow: 0 0 20px #ff007f;
-    padding: 25px;
 }
 
-#contenidoPublicaciones h2 {
-    color: #ff007f;
-    text-shadow: 0 0 15px #ff007f;
-}
-
-/* 📢 Sección de Publicidad (Amarillo - ya estaba bien) */
-#contenidoPublicidad {
-    border: 2px solid #ffcc00;
-    box-shadow: 0 0 20px #ffcc00;
-    padding: 25px;
-}
-
-#contenidoPublicidad h2 {
-    color: #ffcc00;
-    text-shadow: 0 0 15px #ffcc00;
-}
-
-/* 🎁 Sección de Regalos (Morado) */
-#contenidoRegalos {
-    border: 2px solid #9900ff;
-    box-shadow: 0 0 20px #9900ff;
-    padding: 25px;
-}
-
-#contenidoRegalos h2 {
-    color: #9900ff;
-    text-shadow: 0 0 15px #9900ff;
-}
-
-/* 🔥 Estilo de las Publicaciones */
+/* ================================ */
+/* 🔥 Estilos para Publicaciones */
+/* ================================ */
 .publicacion {
     background: #222;
-    padding: 20px;
-    margin: 15px auto;
-    width: 70%;
+    padding: 15px;
+    margin: 10px auto;
+    width: 85%;
     border-radius: 10px;
     text-align: left;
-    box-shadow: 0 0 15px rgba(255, 0, 127, 0.8);
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.7);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .publicacion:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 25px rgba(255, 0, 127, 1);
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(255, 0, 127, 1);
 }
 
 /* ✅ Ajuste de imágenes en los posts */
 .publicacion img {
-    max-width: 21%;
+    max-width: 80%; /* Ajuste automático */
     height: auto;
     display: block;
     margin: 10px auto;
     border-radius: 8px;
 }
 
-/* Botones flotantes de Redes Sociales */
+/* ================================ */
+/* 📌 Botones flotantes de Redes Sociales */
+/* ================================ */
 .social-buttons {
     position: fixed;
-    top: 35%;
-    right: 20px;
-    transform: translateY(-50%);
+    top: 30%;
+    right: 5px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     transition: opacity 0.3s ease-in-out;
     z-index: 100;
 }
 
 /* Estilos de cada botón flotante */
 .social-btn {
-    width: 45px;
-    height: 45px;
+    width: 40px; /* Reducido en móviles */
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s;
 }
 
 /* Colores personalizados para cada red social */
-.facebook { background: #1877F2; box-shadow: 0 0 10px #1877F2; }
-.instagram { background: #E4405F; box-shadow: 0 0 10px #E4405F; }
-.whatsapp { background: #25D366; box-shadow: 0 0 10px #25D366; }
-.telegram { background: #0088CC; box-shadow: 0 0 10px #0088CC; }
+.facebook { background: #1877F2; box-shadow: 0 0 8px #1877F2; }
+.instagram { background: #E4405F; box-shadow: 0 0 8px #E4405F; }
+.whatsapp { background: #25D366; box-shadow: 0 0 8px #25D366; }
+.telegram { background: #0088CC; box-shadow: 0 0 8px #0088CC; }
 
-/* ✅ Ajustes responsivos para móviles */
+/* Ocultar botones al hacer scroll hacia abajo */
+.social-buttons.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* ================================ */
+/* 🏁 Pie de Página */
+/* ================================ */
+footer {
+    background: #000;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #aaa;
+    text-shadow: 0 0 5px #fff;
+}
+
+/* ================================ */
+/* ✅ Ajustes Responsivos para Móviles */
+/* ================================ */
 @media screen and (max-width: 768px) {
-    /* Ajuste de botones de redes sociales */
+    /* 📌 Pantalla de Bienvenida */
+    .bienvenida {
+        padding: 60px 10px 50px;
+    }
+
+    .bienvenida h1 {
+        font-size: 2rem;
+    }
+
+    .bienvenida p {
+        font-size: 0.9rem;
+    }
+
+    /* 📌 Botones de Navegación */
+    .nav-btn {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    /* 📌 Ajuste de Botón "Únete Ahora" */
+    #botonUnete {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* 📌 Botones Flotantes de Redes Sociales */
     .social-buttons {
-        top: 25%;
+        top: 20%;
         right: 5px;
     }
 
@@ -224,23 +229,11 @@ body {
         height: 35px;
         font-size: 16px;
     }
-
-    /* Ajuste de botones de navegación */
-    .nav-btn {
-        font-size: 0.5rem;
-        padding: 6px 12px;
-        box-shadow: 0 0 8px rgba(255, 0, 127, 0.7);
-    }
-
-    /* Ajuste del botón "Únete Ahora" */
-    #botonUnete {
-        font-size: 1rem;
-        padding: 10px 20px;
-        box-shadow: 0 0 10px rgba(255, 0, 127, 0.8);
-    }
 }
 
-/* Animación de Glow */
+/* ================================ */
+/* ✨ Animación de Glow */
+/* ================================ */
 @keyframes glow {
     0% { text-shadow: 0 0 10px #ff007f; }
     100% { text-shadow: 0 0 20px #ff007f, 0 0 40px #ff007f; }
