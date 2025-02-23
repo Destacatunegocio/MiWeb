@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a tu Comunidad</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <!-- Carga de FontAwesome desde un CDN válido -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- SECCIÓN: Logo -->
+    <header class="logo-container">
+        <a href="index.html">
+            <img src="images/logo_transparente.png" alt="Logo de la comunidad" class="logo">
+        </a>       
+    </header>
+
+    <!-- SECCIÓN: Pantalla de Bienvenida -->
+    <section class="bienvenida" id="inicio">
+        <h1>🔥 Bienvenido a tu Comunidad 🔥</h1>
+        <p class="mensaje-parpadeante">🍿 Disfruta cine gratis, únete a la comunidad 🎥💖</p>
+        <button id="botonUnete">¡Únete Ahora!</button>
+    </section>
+
+    <!-- Barra de Navegación (Interactiva) -->
+    <nav class="navbar">
+        <ul>
+            <li><button class="nav-btn" data-target="contenidoInicio">Inicio</button></li>
+            <li><button class="nav-btn" data-target="contenidoPublicaciones">Publicaciones</button></li>
+            <li><button class="nav-btn" data-target="contenidoPublicidad">📢 Publicidad</button></li>
+            <li><button class="nav-btn" data-target="contenidoRegalos">🎁 Regalos</button></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN: Inicio (Dinamizado con JSON) -->
+    <section id="contenidoInicio" class="contenido-seccion">
+        <h2>🏠 Bienvenido</h2>
+        <p>Esta es la sección de inicio con información relevante del blog.</p>
+        <div id="listaInicio"></div>
+    </section>
+
+    <!-- SECCIÓN: Publicaciones (Dinamizado con JSON) -->
+    <section id="contenidoPublicaciones" class="contenido-seccion">
+        <h2>📰 Publicaciones</h2>
+        <p>Aquí encontrarás las últimas publicaciones de cualquier tema relevante.</p>
+        <div id="listaPublicaciones"></div>
+    </section>
+
+    <!-- SECCIÓN: Publicidad (Dinamizado con JSON) -->
+    <section id="contenidoPublicidad" class="contenido-seccion">
+        <h2>📢 Publicidad</h2>
+        <p>Aquí aparecerán los anuncios y promociones de nuestros clientes.</p>
+        <div id="listaPublicidad"></div>
+    </section>
+
+    <!-- SECCIÓN: Regalos -->
+    <section id="contenidoRegalos" class="contenido-seccion">
+        <h2>🎁 Regalos</h2>
+        <p>¡Aquí encontrarás sorteos, premios y regalos exclusivos!</p>
+        <div id="listaRegalos"></div>
+    </section>
+
+    <!-- BOTONES FLOTANTES DE REDES SOCIALES -->
+    <div class="social-buttons">
+        <a href="https://www.facebook.com/profile.php?id=61572790774446" target="_blank" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/destacatunegocio/" target="_blank" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029Vb1IcWKD38CVtz8eZe1H" target="_blank" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://t.me/Zona87Plus" target="_blank" class="social-btn telegram"><i class="fab fa-telegram"></i></a>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 Bienvenido a tu Comunidad - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

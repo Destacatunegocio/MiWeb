@@ -1,0 +1,37 @@
+[
+    {
+        "categoria": "Inicio",
+        "titulo": "🚀 Bienvenido a nuestra Comunidad!",
+        "contenido": "Nos encanta que formes parte de esta increíble comunidad. Aquí construimos juntos un espacio donde todos crecemos como amigos y familia. ¡Disfruta, comparte y haz de este lugar tu hogar digital!",
+        "foto": "",
+        "link": ""
+    },
+    {
+        "categoria": "Publicaciones",
+        "titulo": "🎙️ Cómo Iniciar un Podcast sin Gastar Dinero",
+        "contenido": "Descubre cómo lanzar tu propio podcast sin invertir dinero. Aprende qué herramientas usar, dónde publicarlo y cómo empezar a grabar desde cero.",
+        "foto": "https://i.postimg.cc/26RnDFW1/Como-hacer-un-podcast-gratis.png",
+        "link": "https://www.youtube.com/watch?v=mtPbp1CMG6c"
+    },    
+    {
+        "categoria": "Publicaciones",
+        "titulo": "📈 Curso Gratuito de Marketing Digital",
+        "contenido": "Aprende estrategias efectivas para hacer crecer tu negocio en internet. Curso completo y gratuito disponible.",
+        "foto": "https://i.postimg.cc/ZnqtK3tS/curso-de-marketing-digital-MDE.webp",
+        "link": "https://www.youtube.com/watch?v=dwERFwc3ATw&list=PL8tCHRPUW5WXvzr-5yXhXACKzT3p3sK6g"
+    },   
+    {
+        "categoria": "Regalos",
+        "titulo": "",
+        "contenido": "",
+        "foto": "",
+        "link": ""
+    },
+    {
+        "categoria": "Publicidad",
+        "titulo": "📢 Tu Plataforma de Entretenimiento Total",
+        "contenido": "Donde todo el entretenimiento lo tienes a un solo Boton, Canales premium y eventos deportivo, no tienes que tener contrato ni tendras Instalaciones Complicadas!",
+        "foto": "https://i.postimg.cc/hP6j64Tj/Screenshot-2025-02-22-222603.png",
+        "link": "https://wa.me/19733896658?text=Hola%2C%20quieres%20más%20información%20sobre%20el%20servicio%20de%20TV%20y%20películas%20?."
+    }
+]
