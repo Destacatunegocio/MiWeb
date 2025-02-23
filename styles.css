@@ -130,9 +130,9 @@ body {
     box-shadow: 0 0 15px rgba(255, 0, 127, 1);
 }
 
-/* ✅ Ajuste de imágenes en los posts */
+/* ✅ Ajuste de imágenes en los posts (PC) */
 .publicacion img {
-    max-width: 35%; /* Reduce el tamaño de la imagen */
+    max-width: 20%; /* Cambia este valor si quieres ajustar el tamaño en PC */
     height: auto;
     display: block;
     margin: 10px auto;
@@ -193,6 +193,11 @@ footer {
 /* ✅ Ajustes Responsivos para Móviles */
 /* ================================ */
 @media screen and (max-width: 768px) {
+    /* 📌 Ajuste de imágenes en móviles */
+    .publicacion img {
+        max-width: 80%; /* Cambia este valor si quieres ajustar el tamaño en CELULAR */
+    }
+
     /* 📌 Pantalla de Bienvenida */
     .bienvenida {
         padding: 60px 10px 50px;
