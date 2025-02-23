@@ -132,7 +132,7 @@ body {
 
 /* ✅ Ajuste de imágenes en los posts */
 .publicacion img {
-    max-width: 40%; /* Reduce el tamaño de la imagen */
+    max-width: 20%; /* Reduce el tamaño de la imagen */
     height: auto;
     display: block;
     margin: 10px auto;
