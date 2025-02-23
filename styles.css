@@ -215,7 +215,7 @@ body {
 @media screen and (max-width: 768px) {
     /* Ajuste de botones de redes sociales */
     .social-buttons {
-        top: -25%;
+        top: 15%;
         right: 5px;
     }
 
