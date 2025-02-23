@@ -172,11 +172,11 @@ body {
 
 /* ✅ Ajuste de imágenes en los posts */
 .publicacion img {
-    max-width: 21%; /* Para que no sobrepase el ancho del post */
-    height: auto; /* Mantiene la proporción */
-    display: block; /* Evita espacios extra */
-    margin: 10px auto; /* Centra la imagen */
-    border-radius: 8px; /* Bordes redondeados para que se vea mejor */
+    max-width: 21%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
 }
 
 /* Botones flotantes de Redes Sociales */
@@ -211,25 +211,33 @@ body {
 .whatsapp { background: #25D366; box-shadow: 0 0 10px #25D366; }
 .telegram { background: #0088CC; box-shadow: 0 0 10px #0088CC; }
 
-/* Efecto al pasar el mouse */
-.social-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-}
+/* ✅ Ajustes responsivos para móviles */
+@media screen and (max-width: 768px) {
+    /* Ajuste de botones de redes sociales */
+    .social-buttons {
+        top: 10%;
+        right: 5px;
+    }
 
-/* Ocultar botones al hacer scroll hacia abajo */
-.social-buttons.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
+    .social-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
 
-/* Pie de Página */
-footer {
-    background: #000;
-    padding: 20px;
-    font-size: 0.9rem;
-    color: #aaa;
-    text-shadow: 0 0 10px #fff;
+    /* Ajuste de botones de navegación */
+    .nav-btn {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+        box-shadow: 0 0 8px rgba(255, 0, 127, 0.7);
+    }
+
+    /* Ajuste del botón "Únete Ahora" */
+    #botonUnete {
+        font-size: 1rem;
+        padding: 10px 20px;
+        box-shadow: 0 0 10px rgba(255, 0, 127, 0.8);
+    }
 }
 
 /* Animación de Glow */
